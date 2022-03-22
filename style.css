@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.header ul {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    column-gap: 20px;
+
+}
