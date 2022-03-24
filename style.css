@@ -161,3 +161,8 @@ body {
     border: 2px solid #F9FAF8;
     border-radius: 10px;
 }
+
+footer {
+    margin-top: auto;
+    align-self: center;
+}
