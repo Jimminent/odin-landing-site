@@ -33,15 +33,35 @@ body {
 }
 
 .hero {
+    padding-top: 100px;
     display: flex;
+    background-color: #1F2937;
+}
+
+.hero .item {
+    width: 400px;
 }
 
 .left-side {
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-side p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
 }
 
 .right-side {
+    padding: 100px 100px;
     text-align: center;
     align-self: center;
+    background-color: #919292;
+    font-size: 18px;
+    color: #E5E7EB;
 }
