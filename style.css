@@ -21,7 +21,7 @@ body {
 
 .header div,
 .header ul {
-    margin: 20px 200px;
+    margin: 20px 390px;
 }
 
 .header ul {
@@ -73,6 +73,15 @@ body {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
-    padding: 25px 50px;
-    border-radius: 15px;
+    padding: 10px 40px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px 0;
+    color: #1F2937;
+    text-align: center;
 }
