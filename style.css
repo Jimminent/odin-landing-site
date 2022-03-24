@@ -1,18 +1,27 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     width: 100%;
     background-color: #1F2937;
-    color: #F9FAF8;
     align-items: center;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .header div,
 .header ul {
-    margin: 20px 100px;
+    margin: 20px 200px;
 }
 
 .header ul {
@@ -20,5 +29,19 @@ body {
     margin-left: auto;
     display: flex;
     column-gap: 20px;
+    color: #E5E7EB;
+}
 
+.hero {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    text-align: center;
+    align-self: center;
 }
