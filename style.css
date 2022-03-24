@@ -162,7 +162,14 @@ body {
     border-radius: 10px;
 }
 
-footer {
+.foot {
     margin-top: auto;
-    align-self: center;
+    background-color: #1F2937;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
