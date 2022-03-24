@@ -89,11 +89,20 @@ body {
 .info-boxes {
     display: flex;
     justify-content: center;
+    column-gap: 50px;
 }
 
 .info-boxes .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.info-boxes p {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
 }
