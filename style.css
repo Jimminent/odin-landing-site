@@ -131,3 +131,9 @@ body {
     font-style: normal;
     font-weight: bold;
 }
+
+.action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
